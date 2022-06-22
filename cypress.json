@@ -1,0 +1,7 @@
+{
+  "projectId": "ouqsry",
+  "chromeWebSecurity": false,
+  "testFiles": "**/*.feature"
+ 
+
+}
