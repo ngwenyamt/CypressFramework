@@ -1,0 +1,63 @@
+[
+  {
+    "description": "   Verify if the user is able to login to Lumina Test environment site using valid credentials.",
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "Login.feature",
+    "elements": [
+      {
+        "id": "login;scenario-outline-name:-test-login-functionality-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Scenario Outline name: Test Login functionality with valid credentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "User launch Lumina Test environment \"https://test-app.isometrix.net/\"",
+            "result": {
+              "status": "passed",
+              "duration": 4274000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enter valid username as \"tebogongwenya96@gmail.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 10632000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User enter valid password as \"Cathy#89\"",
+            "result": {
+              "status": "passed",
+              "duration": 514000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "User click sign in button",
+            "result": {
+              "status": "passed",
+              "duration": 141000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
